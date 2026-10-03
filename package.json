@@ -1,0 +1,15 @@
+{
+  "name": "the-room",
+  "private": true,
+  "type": "module",
+  "description": "A lantern for a room. Nearby phones become candles. Nothing is kept.",
+  "scripts": {
+    "start": "node server/hearth.mjs",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "multicast-dns": "^7.2.5",
+    "selfsigned": "^2.4.1",
+    "ws": "^8.18.3"
+  }
+}
